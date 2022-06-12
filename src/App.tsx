@@ -1,9 +1,8 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import { Reformat } from "./utils/calc";
 import Calculator from "./components/Calculator";
-Reformat("5+5+ln(2)");
+// Reformat("5+5+ln(2)");
 function App() {
   return (
     <div className="App">
